@@ -12,7 +12,7 @@ const workExperiences = {
       ]
     },
     { git_repo_url:"https://github.com/ahad18abd/real_time_motion_planning",
-      link:"https://github.com",
+      link:"https://docs.google.com/document/d/1Y9WAR5Xohb85OfpJp1QNsk2n8OZTf8eITgv-wwvwpE4/edit?usp=sharing",
       title: "The 4 Musketeers",
       companylogo: require("./image/msk.jpg"),
       date_and_type: "Inter Hostel Tech Competition • Nov 2019",
@@ -22,7 +22,7 @@ const workExperiences = {
       ]
     },
     { git_repo_url:"#",
-      link:"https://github.com",
+      link:"https://www.youtube.com/watch?v=zkdHCojj_vs",
       title: "RAMAN- The Humanoid",
       companylogo: require("./image/raman.png"),
       date_and_type: "4I Labs IIT Guwahati • Jul 2019 -Present",
@@ -32,7 +32,7 @@ const workExperiences = {
       ]
     },
     { git_repo_url:"https://github.com/ahad18abd/qr_generator_scanner",
-      link:"https://github.com",
+      link:"https://play.google.com/store/apps/details?id=com.ahadabd.qrscannerandgenerator",
       title: "QR generate and scanner",
       companylogo: require("./image/qr.jpg"),
       date_and_type: "Self Project • May 2020 ",
@@ -42,7 +42,7 @@ const workExperiences = {
       ]
     },
     { git_repo_url:"https://github.com/ahad18abd/sharecab",
-      link:"https://github.com",
+      link:"https://play.google.com/store/apps/details?id=com.ahad.share_cab",
       title: "Share Cab",
       companylogo: require("./image/sharecab.jpg"),
       date_and_type: "Self Project • June 2019 ",
@@ -52,7 +52,7 @@ const workExperiences = {
       ]
     },
     { git_repo_url:"https://github.com/ahad18abd/Circuit-X",
-      link:"https://github.com",
+      link:"https://github.com/ahad18abd/Circuit-X/blob/master/README.md",
       title: "circuit-X",
       companylogo: require("./image/circuit.jpg"),
       date_and_type: "Inter Hostel Tech Competition • Oct 2019",

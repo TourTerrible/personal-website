@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.fa8cf8f5.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.46f45adf.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.46f45adf.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio/static/js/runtime-main.41dc66a3.js",
+    "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.41dc66a3.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/personal-portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.4e500f7b.chunk.js": "/personal-portfolio/static/js/2.4e500f7b.chunk.js",
+    "static/js/2.4e500f7b.chunk.js.map": "/personal-portfolio/static/js/2.4e500f7b.chunk.js.map",
+    "index.html": "/personal-portfolio/index.html",
+    "precache-manifest.822ec0f4feeb5767e6f565056835ecc1.js": "/personal-portfolio/precache-manifest.822ec0f4feeb5767e6f565056835ecc1.js",
+    "service-worker.js": "/personal-portfolio/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/personal-portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.fa8cf8f5.chunk.css.map": "/personal-portfolio/static/css/main.fa8cf8f5.chunk.css.map",
+    "static/js/2.4e500f7b.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.4e500f7b.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/personal-portfolio/static/media/about_pic.0695adaf.jpg",
+    "static/media/circuit.jpg": "/personal-portfolio/static/media/circuit.3775a66c.jpg",
+    "static/media/farmingbot.jpg": "/personal-portfolio/static/media/farmingbot.c32b9563.jpg",
+    "static/media/github-brands.46a777a5.svg": "/personal-portfolio/static/media/github-brands.46a777a5.svg",
+    "static/media/linkedin-brands.988c54e0.svg": "/personal-portfolio/static/media/linkedin-brands.988c54e0.svg",
+    "static/media/moon-regular.6f1f85f3.svg": "/personal-portfolio/static/media/moon-regular.6f1f85f3.svg",
+    "static/media/msk.jpg": "/personal-portfolio/static/media/msk.98885aea.jpg",
+    "static/media/qr.jpg": "/personal-portfolio/static/media/qr.0d95fc80.jpg",
+    "static/media/raman.png": "/personal-portfolio/static/media/raman.37372854.png",
+    "static/media/sharecab.jpg": "/personal-portfolio/static/media/sharecab.8afcca4b.jpg",
+    "static/media/stack-overflow-brands.30846890.svg": "/personal-portfolio/static/media/stack-overflow-brands.30846890.svg",
+    "static/media/sun-regular.fbffcf4c.svg": "/personal-portfolio/static/media/sun-regular.fbffcf4c.svg",
+    "static/media/youtube-brands.532a2219.svg": "/personal-portfolio/static/media/youtube-brands.532a2219.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41dc66a3.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.4e500f7b.chunk.js",
+    "static/css/main.fa8cf8f5.chunk.css",
+    "static/js/main.46f45adf.chunk.js"
+  ]
+}

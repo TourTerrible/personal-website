@@ -1,26 +1,65 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme } from "./theme/Theme";
+import { GlobalStyles } from "./theme/GlobalStyles";
+import { Container, Row } from "react-bootstrap";
+import { About, Contact, Footer, Head, Home, Projects,Skills} from "./components";
+import { LoadingScreen } from "./subComponents";
+import { ReactComponent as Sun } from "./assets/icons/sun-regular.svg";
+import { ReactComponent as Moon } from "./assets/icons/moon-regular.svg";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+  }, []);
+
+  const [setup, setSetup] = useState({
+    theme: "lightTheme",
+    themeIcon: <Moon />
+  });
+
+  const toggleTheme = () => {
+    if (setup.theme === "lightTheme") {
+      setSetup({
+        theme: "darkTheme",
+        themeIcon: <Sun className="icon-swt" />
+      });
+    } else {
+      setSetup({
+        theme: "lightTheme",
+        themeIcon: <Moon className="icon-swt" />
+      });
+    }
+  };
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  } else {
+    return (
+      <ThemeProvider
+        theme={setup.theme === "lightTheme" ? lightTheme : darkTheme}
+      >
+        <Container fluid={true} className="App">
+          <GlobalStyles />
+          <Row className="wrapper_header d-flex flex-column align-items-center ">
+            <Head toggleTheme={toggleTheme} icon={setup.themeIcon} />
+            <Home />
+          </Row>
+          <About />
+          <Projects />
+          <Skills/>
+          <Row className="wrapper_contact d-flex flex-column ">
+            
+            <Footer />
+          </Row>
+        </Container>
+      </ThemeProvider>
+    );
+  }
+};
 
 export default App;

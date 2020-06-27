@@ -1,0 +1,35 @@
+.skills {
+  list-style: none;
+  height: auto;
+  padding: 0;
+}
+
+.skills > li {
+  display: inline-flex;
+  border: 2px solid;
+  margin: 1rem;
+  border-radius: 3px;
+  padding: 0 5px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.16);
+}
+
+ .button {
+   width: 180px;
+   text-align: center;
+   margin-top:5rem;
+   padding: 15px;
+   background:inherit;
+   border-radius: 4px;
+   border: 2px solid #4CAF50;
+   transition: transform 0.3s;
+}
+.button:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+   background:inherit;
+   border: 2px solid #4CAF50;
+}
+.button i {
+   margin-right: 15px;
+   font-size: 20px;
+}

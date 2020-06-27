@@ -15,9 +15,6 @@ const Head = props => {
           <Link to="about" className="head-link">
             About me
           </Link>
-          <Link to="contact" className="head-link">
-            Contact
-          </Link>
           <a className="head-link" href="https://drive.google.com/file/d/1_811llRQQ-fC-lSo-GkJkO60OZ4QxHrl/view?usp=sharing">
            Resume
            </a>
